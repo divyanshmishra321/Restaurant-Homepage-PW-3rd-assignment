@@ -90,7 +90,7 @@ body {
 
 .main_heading_text {
   font-family: "Dela Gothic One", cursive;
-  font-size: 7vw;
+  font-size: 5vw;
   text-align: center;
   color: #ffc233;
   margin: 0 2em;
@@ -163,7 +163,7 @@ body {
   }
   #scrollbtn {
     position: fixed;
-    bottom: 0;
+    bottom: 1vh;
     right: 5vw;
     height: 5vh;
   }
