@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Button Related Designing  */
+
+.button {
+  display: flex;
+  background-color: #ff515f;
+  border: 1px solid transparent;
+  height: fit-content;
+  width: fit-content;
+  color: white;
+}
+
+.button:hover {
+  color: white;
+  background-color: #ff818c;
+}
+
+.nav_orderbtn {
+  padding: 5px 13px;
+}
+
+#menubtn {
+  padding: 15px 6vw;
+}
+.menubtn_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Designing Navbar Header here */
+
+.main_header_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content;
+  padding: 10px 0;
+}
+
+.logodiv img {
+  display: flex;
+  align-items: center;
+  height: 3vw;
+}
+
+/* Designing Nav Menu */
+.nav_menu_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1vw;
+  margin: 0 2vw;
+ 
+}
+.nav_menu_list_items {
+  list-style: none;
+}
+
+.nav_menu_list_items a {
+  text-decoration: none;
+  color: #ffc233;
+  font-weight: 500;
+}
+
+/* Main Section Starts From Here  */
+
+.main_section_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main_heading_text {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 7vw;
+  text-align: center;
+  color: #ffc233;
+  margin: 0 2em;
+  font-weight: bold;
+}
+
+/* Footer Designed Here */
+
+.scrollbtndiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: fit-content;
+}
+
+#scrollbtn {
+  position: fixed;
+  bottom: 0;
+  right: 5vw;
+  height: 20vh;
+}
+
+/* ___________________ */
+/*----Media Queries----*/
+/* ___________________ */
+
+@media screen and (max-width: 960px) {
+  .main_header_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .nav_menu_list {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    font-weight: bold;
+  }
+  .nav_menu_list_items a {
+    text-decoration: none;
+    color: #ffc233;
+    font-size: 4vw;
+    text-align: center;
+  }
+  .logodiv img {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+  }
+  #menubtn {
+    padding: 5px 4vw;
+  }
+
+  .maintext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main_heading_text {
+    font-family: "Dela Gothic One", cursive;
+    font-size: 12vw;
+    margin: 10px;
+    color: #ffc233;
+    font-weight: bold;
+  }
+  #scrollbtn {
+    position: fixed;
+    bottom: 0;
+    right: 5vw;
+    height: 5vh;
+  }
+
+  .nav_menu_div{
+    width: fit-content;
+  }
+}
